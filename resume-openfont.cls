@@ -36,7 +36,7 @@
 \setlength{\TPVertModule}{1mm}
 
 \newcommand{\lastupdated}{
-  \begin{textblock}{50}(170,5)
+  \begin{textblock}{50}(170,0)
     \color{date}
     \fontspec{Myriad Pro Light}
     \fontsize{8pt}{10pt}\selectfont
@@ -45,7 +45,7 @@
 
 % QR
 \newcommand{\qr}{
-  \begin{textblock}{60}(0,5)
+  \begin{textblock}{60}(0,0)
     \hspace{14pt}
     \href{https://www.linkedin.com/in/gabrielmesquida/}{
     \includegraphics[height=56pt]{img/qr.jpg}}
@@ -57,14 +57,14 @@
   \begin{minipage}[t]{0.33\textwidth}
     \href{https://www.linkedin.com/in/gabrielmesquida/}{
       \small
-      <more detail>
+      <LinkedIn>
       \\
       \includegraphics[height=56pt]{img/qr.jpg}
     }
   \end{minipage}
   \hfill
   \begin{minipage}[t]{0.66\textwidth}
-    \vspace{15pt}
+    \vspace{0pt}
     \fontsize{30pt}{50pt}
     \fontspec{Myriad Pro}\selectfont #1
     \fontspec{Myriad Pro Semibold}\selectfont #2
