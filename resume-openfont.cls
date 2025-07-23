@@ -126,7 +126,7 @@
   \fontspec{Myriad Pro Semibold}[Numbers=Uppercase]
   \fontsize{12pt}{14pt}\selectfont\raggedright
   \color{headings}{#1}
-  \color{subheadings}\uppercase{#2}\normalfont
+  \color{subheadings}{#2}\normalfont
 \color{headings}\:|\:\color{subheadings}\uppercase{#3}\color{headings}\:|\:\color{subheadings}{#4\\}}
 
 % Role detail command
