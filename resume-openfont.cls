@@ -44,26 +44,16 @@
 \end{textblock}}
 
 % QR
-\newcommand{\qr}{
-  \begin{textblock}{60}(0,0)
-    \hspace{14pt}
-    \href{https://www.linkedin.com/in/gabrielmesquida/}{
-    \includegraphics[height=56pt]{img/qr.jpg}}
-\end{textblock}}
+% \newcommand{\qr}{
+%   \begin{textblock}{60}(0,0)
+%     \hspace{14pt}
+%     \href{https://www.linkedin.com/in/gabrielmesquida/}{
+%     \includegraphics[height=56pt]{img/qr.jpg}}
+% \end{textblock}}
 
 % Name command
 \newcommand{\namesection}[3]
 {
-  \begin{minipage}[t]{0.33\textwidth}
-    \href{https://www.linkedin.com/in/gabrielmesquida/}{
-      \small
-      <LinkedIn>
-      \\
-      \includegraphics[height=56pt]{img/qr.jpg}
-    }
-  \end{minipage}
-  \hfill
-  \begin{minipage}[t]{0.66\textwidth}
     \vspace{0pt}
     \fontsize{30pt}{50pt}
     \fontspec{Myriad Pro}\selectfont #1
@@ -72,7 +62,7 @@
     \color{headings}
     \fontspec{Myriad Pro}[Numbers={OldStyle,Proportional}]
     \fontsize{11pt}{14pt}\selectfont #3
-  \end{minipage}
+    \\[2pt]
 }
 
 % Section separators
@@ -115,8 +105,8 @@
 % Intro
 \newcommand{\intro}[1]{
   \vspace{10pt}
-  \color{subheadings}\raggedright\fontsize{12pt}{14pt}
-  \selectfont \textit{#1}
+  \color{subheadings}\raggedright\fontsize{11pt}{13pt}
+  \selectfont{#1}
   \normalfont
   \vspace{1em}
 }
